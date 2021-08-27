@@ -20,10 +20,3 @@ Type 'Exit' to end connection and leave chat room.
 
 To get rid of compiled files for any reason, use 'make clean' command.
 To shut down server use Ctrl C.
-
-Unfortunately, after many many hours of debugging, I couldn't get the multithreading to work.
-Thus, both functionalities of multiple clients connecting to the server and the server broadcasting 
-any messages sent do not work. You can look in my server and chat files to see that I had a broadcasting method,
-data structure to keep track of all the clients connected to the server, and anything else I could need to make it work... I just couldn't figure out what was wrong.
-While I understand that I cannot get credit for the functionalities that I do not have, I just wanted to point out
-that I gave it the full effort :)
